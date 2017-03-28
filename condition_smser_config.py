@@ -10,14 +10,14 @@ import time
 ################################################################################
 # CONFIG
 ################################################################################
-_host = '218.38.155.73'
-_user = 'root'
-_password = 'saisei123!@#'
-_db = 'XDBSMS'
+_host = ''
+_user = ''
+_password = ''
+_db = ''
 _charset = 'euckr'
-_port = 33060
-_sender = '01027373748'
-_receiver = '01027373748'
+_port =
+_sender = ''
+_receiver = ''
 _msg_header = '[SAISEI ALARM SMSER] '
 _msg_contents = 'Test Message 입니다.'
 _msg_footer = '[---------]'
