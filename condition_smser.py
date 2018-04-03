@@ -32,7 +32,7 @@ for alarm in alarm_datas:
     delta = current_time - alarm_time
     print ('delta : {}'.format(delta.seconds))
 
-    if delta.seconds < 10:
+    if delta.seconds < 4000:
         print ("{} : {}, timedelta : {}".format(alarm['condition'], alarm['creation_time'], delta.seconds))
         _msg = "{}알람 생성시간 : {}, 컨디션 이름 : {}".format(condition_smser_config._msg_header,
                                                                              alarm['creation_time'],
